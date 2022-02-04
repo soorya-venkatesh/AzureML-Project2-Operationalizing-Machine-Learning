@@ -25,11 +25,11 @@ The below diagram gives an overview of all the steps followed for this project.
 **2.2**: Enabling application insights and logging mechanism for the the endpoint. Using the logs.py script. 
 ![logs](https://user-images.githubusercontent.com/63422900/152595320-1cb531dc-af65-4516-93a8-b9c953cb1f11.png)
 
-**2.3**: Applications insights showing various statistics such as server load and number of requests at a given point of time for the serve. Can be accessed by using "application insights" link present in the deployed model.
+**2.3**: Applications insights showing various statistics such as server load and number of requests at a given point of time for the server. Can be accessed by using "application insights" link present in the deployed model.
 ![application_insights](https://user-images.githubusercontent.com/63422900/152595666-a2d00ead-6b51-460e-b40e-6bf7d0d9c40a.png)
 
 ### Step 3: Using Swagger for documenting the model parameters
-Using swggaer.json provided for deployed model in AzureML. Used docker container for swagger and in local machine and viewed swagger model paramters both input as well as output in swagger.
+Using swggaer.json provided for deployed model in AzureML. Used docker container for swagger and in local machine and viewed model paramters ,both input as well as output in UI.
 
 ![swagger1](https://user-images.githubusercontent.com/63422900/152595795-7fef96ff-4cfe-4349-811e-ae4a465cff62.png)
 
