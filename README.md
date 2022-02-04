@@ -29,7 +29,7 @@ The below diagram gives an overview of all the steps followed for this project.
 ![application_insights](https://user-images.githubusercontent.com/63422900/152595666-a2d00ead-6b51-460e-b40e-6bf7d0d9c40a.png)
 
 ### Step 3: Using Swagger for documenting the model parameters
-Using swggaer.json provided for deployed model in AzureML. Used docker container for swagger and in local machine and viewed model paramters ,both input as well as output in UI.
+Using swagger.json provided for deployed model in AzureML. Used docker container for swagger and in local machine and viewed model paramters ,both input as well as output in UI.
 
 ![swagger1](https://user-images.githubusercontent.com/63422900/152595795-7fef96ff-4cfe-4349-811e-ae4a465cff62.png)
 
@@ -39,9 +39,10 @@ Using swggaer.json provided for deployed model in AzureML. Used docker container
 
 ### Step 4: Testing the model endpoint and benchmarking results:
 **4.1**: Used endpoints.py (which takes authentication key and endpiont as input) , using 2 sample datapoints , gave a post request to get back model results
+
 ![result](https://user-images.githubusercontent.com/63422900/152597149-2235f289-d9bd-4ea3-85c8-0fdc0304cd5c.png)
 
-**4.2**: Used apache benchmark to get endpoint benchmark statistics such a mean time for response. Benchmark results for 10 results. Used the below command.
+**4.2**: Used apache benchmark to get endpoint benchmark statistics such a mean time for response. Benchmark results for 10 requests. Used the below command.
 ab -n 10 -v 4 -p data.json -T 'application/json' -H 'Authorization: Bearer SECRET' 'REST_ENDPOINT_URL'
 
 ![benchmark](https://user-images.githubusercontent.com/63422900/152597298-969ce494-002c-44b6-a729-1600706081f4.png)
@@ -56,7 +57,7 @@ The main objective for creating a machine learning pipeline to enable CI/CD func
 ![experiment_overview_azureml](https://user-images.githubusercontent.com/63422900/152599566-16323967-1ad9-4dc2-a08b-446bfc5c9e5d.png)
 
 **5.3**: Published pipeline with the endpoint
-*TODO![completed_pipeline_run](https://user-images.githubusercontent.com/63422900/152599469-5ce7fafe-4d80-498f-a541-a25c2e9b8f75.png)
+![completed_pipeline_run](https://user-images.githubusercontent.com/63422900/152599469-5ce7fafe-4d80-498f-a541-a25c2e9b8f75.png)
 
 **5.4**: Published pipeline overview with active status
 ![pipeline_active](https://user-images.githubusercontent.com/63422900/152599660-712e6623-9f9e-4574-9a1b-f85bb5b9db2b.png)
@@ -75,5 +76,5 @@ https://user-images.githubusercontent.com/63422900/152592189-cc6e8e3a-3937-418b-
 
 1. Experiment with deep learning models such a MLP's to try and boost the AUC score.
 2. Create a frontend UI for easier consumption of the the model.
-3. Include functionality to montor data drift and model drift in the published pipeline.
+3. Include functionality to monitor data drift and model drift in the published pipeline.
 
