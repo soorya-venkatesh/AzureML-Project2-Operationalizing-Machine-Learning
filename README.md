@@ -48,7 +48,7 @@ ab -n 10 -v 4 -p data.json -T 'application/json' -H 'Authorization: Bearer SECRE
 ![benchmark](https://user-images.githubusercontent.com/63422900/152597298-969ce494-002c-44b6-a729-1600706081f4.png)
 
 ### Step 5: Creating and publishing a AzureML pipeline for the best model
-The main objective for creating a machine learning pipeline to enable CI/CD functionalities which makes it easier to handle any changes in a production environment. Once such example would be using the pipeline for continious retraining of the model and easily deploying it production. Here a pipeline is created for the ML model and is published so that it can be consumed from anywhere
+The main objective for creating a machine learning pipeline to enable CI/CD functionalities which makes it easier to handle any changes in a production environment. Once such example would be using the pipeline for continious retraining of the model and easily deploying it production. Here a pipeline is created for the ML model and is published so that it can be consumed from anywhere. **Detailed steps and results can be viewed in aml-pipelines-with-automated-machine-learning-step.ipynb.**
 
 **5.1**: Pipeline creation in AzureML and its completed run 
 ![completed_pipeline_run](https://user-images.githubusercontent.com/63422900/152599388-bd0a5b0e-0e78-4594-a19a-0358444ae172.png)
