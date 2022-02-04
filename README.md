@@ -1,5 +1,5 @@
 # Operationalinzing a Machine Learning pipeline:
-The goal of the project is to train a AutoML model and deploy the best model following  best practices to followed in a production environment. Also create and publish a pipeline for this model enabling CI/CD functionalities.
+The goal of the project is to train a AutoML model and deploy the best model following  best practices in a production environment. Also create and publish a pipeline for this model enabling CI/CD functionalities.
 
 **P.S**: Please have a look at demo video provided at the end for a shorter version.
 
