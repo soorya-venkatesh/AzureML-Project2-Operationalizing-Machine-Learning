@@ -52,29 +52,28 @@ The main objective for creating a machine learning pipeline to enable CI/CD func
 **5.1**: Pipeline creation in AzureML and its completed run 
 ![completed_pipeline_run](https://user-images.githubusercontent.com/63422900/152599388-bd0a5b0e-0e78-4594-a19a-0358444ae172.png)
 
+**5.2**: The scheduled run of the AutoML model
 ![experiment_overview_azureml](https://user-images.githubusercontent.com/63422900/152599566-16323967-1ad9-4dc2-a08b-446bfc5c9e5d.png)
 
-**5.2**: Published pipeline with the endpoint
+**5.3**: Published pipeline with the endpoint
 *TODO![completed_pipeline_run](https://user-images.githubusercontent.com/63422900/152599469-5ce7fafe-4d80-498f-a541-a25c2e9b8f75.png)
 
-**5.3**: Published pipeline overview with active status
+**5.4**: Published pipeline overview with active status
 ![pipeline_active](https://user-images.githubusercontent.com/63422900/152599660-712e6623-9f9e-4574-9a1b-f85bb5b9db2b.png)
 
-**5.4**: Run widget details output after the pipeline is created and published 
+**5.5**: Run widget details output after the pipeline is created and published 
 ![run_widgets](https://user-images.githubusercontent.com/63422900/152599930-c518abda-1bac-46e5-bd2e-c00a5a528352.png)
 
 
-
-* Remeber to
- provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
-
-## Screen Recording
-
+## Video demo of the project
 
 https://user-images.githubusercontent.com/63422900/152592189-cc6e8e3a-3937-418b-9d95-6fd98faf2fc1.mp4
 
 
 
-## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+## Future Enhancements 
+
+1. Experiment with deep learning models such a MLP's to try and boost the AUC score.
+2. Create a frontend UI for easier consumption of the the model.
+3. Include functionality to montor data drift and model drift in the published pipeline.
 
