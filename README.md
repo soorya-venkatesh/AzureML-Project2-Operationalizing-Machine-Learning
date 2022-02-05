@@ -1,5 +1,5 @@
 # Operationalinzing a Machine Learning pipeline:
-The goal of the project is to train a AutoML model and deploy the best model following  best practices in a production environment. We test the deployed enndpoint by hitting the server with input datapoints with POST requests. We also benchmark the endpoint using Apache benchmark.Also a pipeline is created and published for this model enabling CI/CD functionalities.
+The goal of the project is to train a AutoML model and deploy the best model following  best practices in a production environment.The deployed end point was tested by hitting the server with input datapoints with POST requests and verifying the response. The endpoint was also benchmarked using Apache benchmark.Also a pipeline is created and published for this model enabling CI/CD functionalities.
 
 **P.S**: Please have a look at demo video provided at the end for a shorter version.
 
